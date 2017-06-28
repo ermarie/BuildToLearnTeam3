@@ -25,7 +25,7 @@ body {
     justify-content: space-around
 }
 .navbar-brand > h3 {
-    
+    align-self: center;
 }
 
 .navbar-right {
