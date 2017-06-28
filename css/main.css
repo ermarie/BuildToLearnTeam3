@@ -1,8 +1,51 @@
 body {
 	font-family: Merriweather Sans, sans serif;
+    margin: 0;
 }
 
-.navbar-collapse {
-	padding-left: 20px; 
-	padding-right: 20px;
+.wrapper {
+    width: 100;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #21CDB2;
+    justify-content: space-between;
+}
+
+.nav-box {
+    height: 85px;
+}
+
+.navbar-brand {
+    min-width: 135px;
+/*    background-color: blue;*/
+    color: white;
+    display: flex;
+    justify-content: space-around
+}
+.navbar-brand > h3 {
+    
+}
+
+.navbar-right {
+    min-width: 390px;
+/*    background-color: red;*/
+    display: flex;    
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-list > li {
+    color: white;
+    padding: 0;
+    align-self: center;
 }
