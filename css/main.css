@@ -57,8 +57,58 @@ body {
 }
 
 #navbar-slack {
-    border: 3px solid white;
+    border: 2px solid white;
     border-radius: 20px;
     padding: 4px 8px;
     font-weight: 600;
+    letter-spacing: 0px;
 }
+
+.main-info-left {
+    width: 50%;
+    float: left;
+/*    height: 30%;*/
+    top:10%;
+    position: absolute;
+
+}
+
+.main-info-right {
+    width: 50%;
+    float: right;
+    top: 10%;
+    
+}
+
+.main-img-mac {
+    max-width: 100%;
+    min-width: 350px;
+    height: auto;  
+}
+
+
+.main-wrapper {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #21CDB2;
+}
+
+/*
+    .main-wrapper:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+*/
+    @media screen and (max-width: 480px) {
+        .main-info-left, .main-info-right {
+            float: none;
+            width: auto;
+            text-align: center;
+            position: relative;
+            top: 0;
+            padding: 20px 0;
+        }
+
+    }
