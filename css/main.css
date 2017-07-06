@@ -66,24 +66,60 @@ body {
 
 .main-info-left {
     width: 50%;
-    float: left;
-/*    height: 30%;*/
+    left: 10%;
+    right: 2%;
+    padding: 10px;
     top:10%;
     position: absolute;
-
+    z-index: 2;
 }
 
 .main-info-right {
     width: 50%;
-    float: right;
+    right: 0;
     top: 10%;
-    
+    position: absolute;
+    z-index: 2;
+        
+}
+
+
+.main-info-left h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 400;
+    width: 65%;
+    padding: 10px
+}
+
+.main-info-left p {
+    color: #D3F5F0;
+    font-size: 1.7em;
+    width: 65%;
+    padding-bottom: 10px;
+}
+
+#main-slack {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 4px 8px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #21CDB2;
+    background-color: #fff;
+    padding: 10px 30px;
+    margin-top: 10px;
 }
 
 .main-img-mac {
     max-width: 100%;
     min-width: 350px;
     height: auto;  
+/*
+    position: absolute;
+    z-index: 2;
+*/
 }
 
 
@@ -94,6 +130,13 @@ body {
     background-color: #21CDB2;
 }
 
+.img-backsplash {
+    position: absolute;
+    height: 400px;
+    top: 5%;
+    z-index: 1;
+    overflow: hidden;
+}
 /*
     .main-wrapper:after {
         content:"";
@@ -109,6 +152,25 @@ body {
             position: relative;
             top: 0;
             padding: 20px 0;
+        }
+        
+        .main-info-left {
+            left: 2%;
+            right: 2%;
+            padding: 10px;
+            top:1%;            
+            z-index: 2;
+        }
+        
+        .main-info-left h1 {
+            font-size: 2.5em;
+            font-weight: 400;
+            width: 100%;
+        }
+
+        .main-info-left p {
+            font-size: 1.5em;
+            width: 100%;
         }
 
     }
