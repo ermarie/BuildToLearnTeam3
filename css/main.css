@@ -67,7 +67,6 @@ body {
 .main-info-left {
     width: 50%;
     left: 10%;
-    right: 2%;
     padding: 10px;
     top:10%;
     position: absolute;
@@ -137,13 +136,13 @@ body {
     z-index: 1;
     overflow: hidden;
 }
-/*
-    .main-wrapper:after {
+
+.main-wrapper:after {
         content:"";
         display: table;
         clear: both;
-    }
-*/
+}
+
     @media screen and (max-width: 480px) {
         .main-info-left, .main-info-right {
             float: none;
