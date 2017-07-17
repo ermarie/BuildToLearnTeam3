@@ -70,14 +70,14 @@ body {
     background-repeat: no-repeat;
 /*    background-size: 60% 70%;*/
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-color: #21CDB2;
 }
 
 
 .main-info-left {
     width: 50%;
-    left: 10%;
+/*    left: 10%;*/
     padding: 10px;
     top:10%;
     float: left;
@@ -152,12 +152,16 @@ body {
     @media screen and (max-width: 480px) {
         .main-info-left, .main-info-right {
             float: none;
-            width: auto;
+            width: 100%;
             text-align: center;
-            position: relative;
+/*            margin-left: 50%;*/
+            position: relative; 
+            margin: 0 auto;
+/*
             top: 0;
             left: 0;
             right: 0;
+*/
             padding: 20px 0;
         }
         
